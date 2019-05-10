@@ -1,0 +1,104 @@
+// Montes, Experiment 3 - Num 1
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+    int a, b, c, d, e, f, g, h, i, j, average, total;
+    
+       { // largest integer
+           cout << "Enter 10 integers: \t" << endl;
+            cin >> a >> b >> c >> d >> e >> f >> g >> h >> i >> j;
+            
+            if (a > b && a > c && a > d && a > e && a > f && a > g && a > h && a > i && a > j){
+                cout << "largest number is " << a << endl;
+            }
+            
+            else if (b > a && b > c && b > d && b > e && b > f && b > g && b > h && b > i && a > j){
+                cout << "largest number is " << b << endl;
+            }
+            
+            else if (c > a && c > b && c > d && c > e && c > f && c > g && c > h && c > i && c > j){
+                cout << "largest number is " << c << endl;
+            }
+            
+            else if (d > a && d > c && d > b && d > e && d > f && d > g && d > h && d > i && d > j){
+                cout << "largest number is " << d << endl;
+            }
+            
+               else if (e > a && e > c && e > b && e > b && e > f && e > g && e > h && e > i && e > j){
+                cout << "largest number is " << e << endl;
+            }
+               
+                else if (f > a && f > c && f > b && f > e && f > d && f > g && f > h && f > i && f > j){
+                cout << "largest number is " << f << endl; 
+            }
+                else if (g > b && g > c && g > d && g > e && g > f && g > a && g > h && g > i && g > j){
+                cout << "largest number is " << g << endl;
+            }
+            
+                else if (h > b && h > c && h > d && h > e && h > f && h > g && h > a && h > i && h > j){
+                cout << "largest number is " << h << endl;
+            }
+                else if (i > b && i > c && i > d && i > e && i > f && i > g && i > h && i > a && i > j){
+                cout << "largest number is " << i << endl;
+            }
+            
+                else if (j > b && j > c && j > d && j > e && j > f && j > g && j > h && j > i && j > a){
+                cout << "largest number is " << j << endl;
+            }
+       }
+       
+       { // smallest integer
+             if (a < b && a < c && a < d && a < e && a < f && a < g && a < h && a < i && a < j){
+                cout << "smallest number is " << a << endl;
+            }
+            
+            else if (b < a && b < c && b < d && b < e && b < f && b < g && b < h && b < i && a < j){
+                cout << "smallest number is " << b << endl;
+            }
+            
+            else if (c < a && c < b && c < d && c < e && c < f && c < g && c < h && c < i && c < j){
+                cout << "smallest number is " << c << endl;
+            }
+            
+            else if (d < a && d < c && d < b && d < e && d < f && d < g && d < h && d < i && d < j){
+                cout << "smallest number is " << d << endl;
+            }
+            
+               else if (e < a && e < c && e < b && e < b && e < f && e < g && e < h && e < i && e < j){
+                cout << "smallest number is " << e << endl;
+            }
+               
+                else if (f < a && f < c && f < b && f < e && f < d && f < g && f < h && f < i && f < j){
+                cout << "smallest number is " << f << endl; 
+            }
+                else if (g < b && g < c && g < d && g < e && g < f && g < a && g < h && g < i && g < j){
+                cout << "smallest number is " << g << endl;
+            }
+            
+                else if (h < b && h < c && h < d && h < e && h < f && h < g && h < a && h < i && h < j){
+                cout << "smallest number is " << h << endl;
+            }
+                else if (i < b && i < c && i < d && i < e && i < f && i < g && i < h && i < a && i < j){
+                cout << "smallest number is " << i << endl;
+            }
+            
+                else if (j < b && j < c && j < d && j < e && j < f && j < g && j < h && j < i && j < a){
+                cout << "smallest number is " << j << endl;
+            }
+       }
+            
+        total = a + b + c + d + e + f + g + h + i + j;  
+        cout << "Total is: \t" << total << endl;
+    
+        average = (a + b + c + d + e + f + g + h + i + j) / 10;
+        cout << "Average is: \t" << average << endl;
+    
+    _getch();
+    return 0;
+    
+}
+
+   
