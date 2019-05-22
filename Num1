@@ -12,15 +12,17 @@ int main()
     double smallest, largest, total, average;
     
     
-    cout << "Enter 10 integers" << endl;
+    cout << "Input 10 integers" << endl;
     for (index = 0; index < 10; index++)
         integers[index]=0.0;
     
     for (index = 0; index < 10; index++)
         cin >> integers[index];
     
+    cout << "---------------------------------------" << endl;
+    cout << "Values entered are: ";
     for (index = 0; index < 10; index++)
-        cout << integers[index] << " ";
+        cout << integers[index] << ", ";
     
     total = 0;
     
@@ -50,9 +52,8 @@ int main()
     smallest = integers[minIndex];
     
     cout << "Smallest integer = \t" << smallest << endl;
-    cout << "End of Program";
+    cout << "End of Program" << endl;
     
     _getch();
     return 0;
 }
-
